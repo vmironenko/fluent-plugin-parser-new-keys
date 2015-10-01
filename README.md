@@ -2,14 +2,14 @@
 </h2>
 <pre>
 <code>
-"<match test.*>
+&lt;match test.*&gt;
   type  parser_new_keys
   parse_field message
   prefix_new_key new_key
   number_of_keys 3
   pattern '\n(?:Caused by: )*([a-zA-Z_.]+Exception): '
   tag test.filtered
-"</match>
+&lt;/match &gt;
 </code>
 </pre>
 If following record is passed:
